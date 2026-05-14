@@ -1,0 +1,25 @@
+restart-times:
+  - "06:00"
+  - "18:00"
+
+warnings:
+  - 60
+  - 30
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+
+warning-message: "&c&lServer restarting in {time}!"
+restart-message: "&c&lServer is restarting now!"
+
+title-enabled: true
+title-message: "&c&lRESTART"
+subtitle-message: "&7in {time} seconds"
+
+sound: BLOCK_NOTE_BLOCK_PLING
+
+cancel-on-empty: false
+
+language: en

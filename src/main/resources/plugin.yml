@@ -1,0 +1,18 @@
+name: AutoRestart
+version: ${project.version}
+main: dev.gteeri.autorestart.AutoRestart
+author: Gteeri
+api-version: '1.21'
+description: Lightweight scheduled server restart system
+
+commands:
+  autorestart:
+    description: AutoRestart management command
+    usage: /autorestart <reload|now|cancel|status|time>
+    permission: autorestart.admin
+    aliases: [ar]
+
+permissions:
+  autorestart.admin:
+    description: Access to all AutoRestart commands
+    default: op

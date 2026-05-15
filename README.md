@@ -1,3 +1,5 @@
+![Paper](https://img.shields.io/badge/Paper-1.21+-blue?style=flat-square) ![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 # AutoRestart
 
 Lightweight scheduled server restart system for Paper 1.21+.
